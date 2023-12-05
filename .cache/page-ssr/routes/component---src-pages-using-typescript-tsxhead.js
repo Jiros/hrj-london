@@ -123,11 +123,7 @@ const Layout = ({
       marginTop: `var(--space-6)`,
       fontSize: `var(--font-sm)`
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    class: "footer"
-  }, "Our site is currently in development, but if you're intrigued enough to want to know", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("br", null), "more about who we are and what we do, please contact us at  ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", {
-    href: "mailto:info@HRJLondon.com"
-  }, "info@HRJLondon.com")))));
+  })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
 

@@ -878,7 +878,13 @@ function CompanySection() {
     formats: ["auto", "webp", "avif"],
     alt: "",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3886935376.json */ "./.cache/caches/gatsby-plugin-image/3886935376.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "A strategic brand and marketing ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " communications consultancy.")));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "A strategic brand and marketing ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " communications consultancy.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    class: "footer"
+  }, "Our site is currently in development, but if you're intrigued enough to want to know", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "more about who we are and what we do, please contact us at  ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "mailto:info@HRJLondon.com"
+  }, "info@HRJLondon.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    class: "footer"
+  }, "HRJ London Ltd, a company incorporated in England and Wales (Company Number 15313220) ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " with its Registered Office at 63-66 Hatton Garden, Fifth Floor, Suite 23, London, England, EC1N 8LE."));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CompanySection);
 
@@ -967,11 +973,7 @@ const Layout = ({
       marginTop: `var(--space-6)`,
       fontSize: `var(--font-sm)`
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
-    class: "footer"
-  }, "Our site is currently in development, but if you're intrigued enough to want to know", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("br", null), "more about who we are and what we do, please contact us at  ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", {
-    href: "mailto:info@HRJLondon.com"
-  }, "info@HRJLondon.com")))));
+  })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
 
