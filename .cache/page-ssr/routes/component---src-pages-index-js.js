@@ -870,20 +870,15 @@ __webpack_require__.r(__webpack_exports__);
 function CompanySection() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     class: "splash"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, " Welcome to"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
     src: "../../images/hrj-london-logo.png",
     loading: "eager",
     width: 750,
     quality: 95,
     formats: ["auto", "webp", "avif"],
     alt: "",
-    style: {
-      marginBottom: `var(--space-3)`
-    },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3886935376.json */ "./.cache/caches/gatsby-plugin-image/3886935376.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    class: "container"
-  }));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "A strategic brand and marketing ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " communications consultancy.")));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CompanySection);
 
@@ -916,7 +911,11 @@ const Header = ({
     alignItems: `center`,
     justifyContent: `space-between`
   }
-});
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  style: {
+    padding: '15px'
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Site Under Construction")));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
 
 /***/ }),
@@ -968,7 +967,11 @@ const Layout = ({
       marginTop: `var(--space-6)`,
       fontSize: `var(--font-sm)`
     }
-  }, "\xA9 ", new Date().getFullYear(), " \xB7 Goldstein Holdings")));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    class: "footer"
+  }, "Our site is currently in development, but if you're intrigued enough to want to know", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("br", null), "more about who we are and what we do, please contact us at  ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", {
+    href: "mailto:info@HRJLondon.com"
+  }, "info@HRJLondon.com")))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
 
@@ -1119,7 +1122,7 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Goldstein Holdings"}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"HRJ London"}}}}');
 
 /***/ }),
 
@@ -1130,7 +1133,7 @@ module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Goldstein
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Goldstein Holdings","description":"The Allen Goldstein Group of Companies","author":"@gatsbyjs"}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"HRJ London","description":"A strategic brand and marketing communications consultancy","author":"@gatsbyjs"}}}}');
 
 /***/ })
 

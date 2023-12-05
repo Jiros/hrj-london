@@ -40,7 +40,6 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          <div class='footer'>Our site is currently in development, but if you're intrigued enough to want to know<br/>more about who we are and what we do, please contact us at  <a href="mailto:info@HRJLondon.com">info@HRJLondon.com</a></div>
           {/* © {new Date().getFullYear()} &middot; HRJ London */}
         </footer>
       </div>
@@ -49,3 +48,4 @@ const Layout = ({ children }) => {
 }
 
 export default Layout
+

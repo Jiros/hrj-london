@@ -29,7 +29,11 @@ const Header = ({
     alignItems: `center`,
     justifyContent: `space-between`
   }
-});
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  style: {
+    padding: '15px'
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Site Under Construction")));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
 
 /***/ }),
@@ -81,7 +85,11 @@ const Layout = ({
       marginTop: `var(--space-6)`,
       fontSize: `var(--font-sm)`
     }
-  }, "\xA9 ", new Date().getFullYear(), " \xB7 Goldstein Holdings")));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("div", {
+    class: "footer"
+  }, "Our site is currently in development, but if you're intrigued enough to want to know", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("br", null), "more about who we are and what we do, please contact us at  ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("a", {
+    href: "mailto:info@HRJLondon.com"
+  }, "info@HRJLondon.com")))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
 
@@ -201,7 +209,7 @@ const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Goldstein Holdings"}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"HRJ London"}}}}');
 
 /***/ }),
 
@@ -212,7 +220,7 @@ module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Goldstein
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"Goldstein Holdings","description":"The Allen Goldstein Group of Companies","author":"@gatsbyjs"}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"HRJ London","description":"A strategic brand and marketing communications consultancy","author":"@gatsbyjs"}}}}');
 
 /***/ })
 
