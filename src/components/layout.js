@@ -41,6 +41,7 @@ const Layout = ({ children }) => {
           }}
         >
           {/* © {new Date().getFullYear()} &middot; HRJ London */}
+          <p class="footer-small">HRJ London Ltd, a company incorporated in England and Wales (Company Number 15313220) <br/> with its Registered Office at 63-66 Hatton Garden, Fifth Floor, Suite 23, London, England, EC1N 8LE.</p>
         </footer>
       </div>
     </>
